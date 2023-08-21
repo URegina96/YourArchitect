@@ -1,0 +1,307 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
+
+:root{
+    --blackpure:#000;
+    --black:#171718;
+    --black-border:#10107afb;
+    --white:#fff;
+    --purple:#a300a3;
+    --orange: #f1a246;
+}
+.home{/* Главная */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: -0.5px; 
+}
+.component__1{/* Component 1 */
+    position: absolute;
+    width: 1440px;
+    height: 102px;
+    left: 15%; /* 0px */
+    top: 0px;
+}
+.main{/* Main */
+
+position: absolute;
+left: 38.42%;
+right: 57.15%;
+top: 43.81%;
+bottom: 44.76%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;/*  12px */
+line-height: 12px;
+/* identical to box height, or 100% */
+letter-spacing: 0.2em;
+text-transform: uppercase;
+
+/* Gray 1 */
+color: #333333;
+}
+.gallery{/* GALLERY */
+
+position: absolute;
+left: 46.54%;/* 46.04% */
+right: 49.44%;
+top: 43.81%;
+bottom: 44.43%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;/*  12px */
+line-height: 12px;
+/* identical to box height, or 100% */
+letter-spacing: 0.2em;
+text-transform: uppercase;
+
+/* Gray 1 */
+color: #333333;
+}
+.projects{/* PROJECTS */
+
+    position: absolute;
+    left: 56.79%;/* 54.79% */
+    right: 39.93%;
+    top: 44.12%;
+    bottom: 45.1%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;/*  12px */
+    line-height: 12px;
+    /* or 100% */
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    
+    /* Gray 1 */
+    color: #333333;
+    
+}
+.certifications{/* CERTIFICATIONS */
+
+    position: absolute;
+    left: 68.89%;/* 63.89% */
+    right: 27.57%;
+    top: 44.12%;
+    bottom: 45.1%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;/*  12px */
+    line-height: 12px;
+    /* or 100% */
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    
+    /* Gray 1 */
+    color: #333333;
+}
+.contacts{/* COntacts */
+
+    position: absolute;
+    left: 84%;/* 75.83% */
+    right: 18.68%;
+    top: 43.81%;
+    bottom: 44.76%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;/*  12px */
+    line-height: 12px;
+    /* identical to box height, or 100% */
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    
+    /* Gray 1 */
+    color: #333333;
+}
+.vector{/* Vector */
+
+position: absolute;
+left: 9.38%;
+right: 85.86%;
+top: 59.22%;
+bottom: 28.57%;
+/* 
+background: url(Без имени-1 копия.png); */
+}
+.vector__1{/* Vector__1 */
+    position: absolute;
+    left: 9.38%;
+    right: 85.86%;
+    top: 10%;
+    bottom: 28.57%;
+}
+.rectangle__20{/* Rectangle 20 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+}
+.rectangle__6{/* Rectangle 6 */
+
+position: absolute;
+width: 770px;
+height: 829px;
+left: 1000px;/* 535px */
+top: 105px;
+
+background: url(.jpg), #C4C4C4;
+}
+.frame__10{/* Frame 10 */
+
+position: absolute;
+width: 221.81px;
+height: 71px;
+left: 1000.66px;/* 534.66px */
+top: 860px;
+}
+.project{/* PROJECT */
+
+    position: absolute;
+    width: 277.76px;
+    height: 64px;
+    left: 235px; /* 135px */
+    top: 438px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    /* identical to box height, or 100% */
+    
+    /* Gray 4 */
+    color: #BDBDBD;
+}
+.lorum{/* Lorum */
+
+    position: absolute;
+    width: 186px;
+    height: 64px;
+    left: 235px;/* 135px */
+    top: 502px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    /* identical to box height, or 100% */
+    
+    /* Gray 1 */
+    color: #333333;
+}
+.frame__8{/* Frame 8 */
+
+    position: absolute;
+    width: 52.95px;
+    height: 53px;
+    left: 310.94px;/* 210.94px */
+    top: 656px;
+}
+.frame__9{/* Frame 9 */
+    position: absolute;
+    width: 52.95px;
+    height: 53px;
+    left: 235px;/* 135px */
+    top: 656px;
+}
+.group__13{
+    position: absolute;
+    width: 1170px;
+    height: 465px;
+    left: px;/* 1054px */  
+    top: 0px;  /* 1054px */  
+}
+.rectangle__7{/* Rectangle 7 */
+
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    left: 35%;/* 0px */
+    top: 0px;
+    
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+}
+.rectangle__8{/* Rectangle 8 */
+
+    position: absolute;
+    width: 270px;
+    height: 265px;
+    left: 335px;
+    top: 1084px;
+    
+    background: url(.jpg), #C4C4C4;
+}
+.rectangle__9{/* Rectangle 9 */
+
+    position: absolute;
+    width: 270px;
+    height: 345px;
+    left: 635px;
+    top: 1114px;
+    
+    background: url(.jpg), #C4C4C4;
+}
+.rectangle__10{/* Rectangle 10 */
+
+    position: absolute;
+    width: 270px;
+    height: 140px;
+    left: 335px;
+    top: 1379px;
+    
+    background: url(.jpg), #C4C4C4;
+}
+.about{/* About */
+
+    position: absolute;
+    width: 168px;
+    height: 64px;
+    left: 105%;/* 835px */
+    top: 1084px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    /* identical to box height, or 100% */
+    
+    /* Gray 4 */
+    color: #BDBDBD;
+}
+.lorem__ipsum{/* Lorem Ipsum */
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 105%;/* 835px */
+    top: 1168px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+    
+    color: #000000;
+}
