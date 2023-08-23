@@ -1,0 +1,52 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
+
+
+:root{
+    --blackpure:#000;
+    --black:#171718;
+    --black-border:#10107afb;
+    --white:#fff;
+    --purple:#a300a3;
+    --orange: #f1a246;
+    --col-text:#333333;
+}
+    /* Nav бургер */
+.nav{
+        padding: 20px 0;
+        border-bottom: 1px solid var(--black-border);
+        background-color:var(--dark-bg);
+        color:var(--col-text);
+        letter-spacing: normal;
+    
+}
+.nav-list{
+    display: flex;
+    align-items:center;
+    column-gap:40px;
+    font-size: 14px; 
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    row-gap: 10px;
+    flex-wrap: wrap; 
+}
+.nav-row{
+    display: flex ; 
+    justify-content: flex-end;
+
+    align-items: center;
+    column-gap: 30px; 
+    row-gap: 20px;
+    flex-wrap: wrap; 
+    
+}
+.logo{
+    margin-right: auto;
+    color:var(--header-text);
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+.logo strong{
+    font-weight: 700;
+}
