@@ -15,6 +15,23 @@
     --color-title-2:#FFFFFF;
     --fon-text:#eeeeee;
 }
+
+html,body{
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: -0.5px; 
+
+
+    /*(Light mode)*/
+
+    background-color:var(--page-bg);/*(+!)*/
+    color: var(--text-color);/*(+!)*/
+}
+
     /* Nav бургер */
 .nav{
         padding: 20px 0;
