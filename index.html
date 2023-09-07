@@ -14,9 +14,10 @@
     <nav class="nav">
         <div class="container">
             <div class="nav-row">
-                <a href="./index.html" class="logo">            
-                    <img src="./img/Vector_1.png" alt="Logotip" class="vector__1">
-                    <img src="./img/Vector.png" alt="Logotip" class="vector">
+                <a href="./index.html" class="logo">         
+                    <p class="number">+7 000 000 00 00</p>
+                    <!-- <img src="img\nav\logo2.PNG" alt="Logotip" class="vector__1" width="150" height="150"> -->
+                    <!-- <img src="./img/Vector.png" alt="Logotip" class="vector"> -->
                 </a>
                 <ul class="nav-list">
                     <li class="nav-list__item"><a href="./index.html" class="nav-list__link nav-list__link--active">MAIN</li>
@@ -28,45 +29,81 @@
             </div>
         </div> 
     </nav>
-<!-- Main-->
-<main class="section">
-    <div class="container-1">
-        <h1 class="header__title-1">
-            <strong>PROJECT</strong>
-        </h1>
-        <h1 class="header__title-2">
-            <strong>LORUM</strong>
-        </h1>
-        <img src="./img/Rectangle 6.png" alt="img" class="img__1">
+
+<!-- Header-->
+<header class="header"> 
+    <div class="header__wrapper">
+        <img src="img\menu\logotip.png" alt="gallery img" class="logo__img-1">
+        <img src="img\menu\podLogotip.png" alt="gallery img" class="logo__img-2">
     </div>
-    <div class="container-2">
-        <img src="./img/Rectangle 8.png" alt="img" class="img__2">
-        <img src="./img/Rectangle 10.png" alt="img" class="img__2">
-        <img src="./img/Rectangle 9.png" alt="img" class="img__3">
-        <h1 class="header__title-3">
-            <strong>About</strong>
-        </h1>
-        <p class="text-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br />
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br />
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+</header>
+
+
+    <!-- Main-->
+    <main class="section">
+            <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+        <div class="numbertext">1 / 7</div>
+        <img src="img\menu\1.png" style="width:100%">
+        <!-- <div class="text">Caption Text</div> -->
+        </div>
+    
+        <div class="mySlides fade">
+        <div class="numbertext">2 / 7</div>
+        <img src="img\menu\2.png" style="width:100%">
+        <!-- <div class="text">Caption Two</div> -->
+        </div>
+    
+        <div class="mySlides fade">
+        <div class="numbertext">3 / 7</div>
+        <img src="img\menu\3.png" style="width:100%">
+        <!-- <div class="text">Caption Three</div> -->
+        </div>
+        
+        <div class="mySlides fade">
+        <div class="numbertext">4 / 7</div>
+        <img src="img\menu\4.png" style="width:100%">
+        <!-- <div class="text">Caption Three</div> -->
+        </div>
+
+        <div class="mySlides fade">
+        <div class="numbertext">5 / 7</div>
+        <img src="img\menu\5.png" style="width:100%">
+        <!-- <div class="text">Caption Three</div> -->
+        </div>
+
+        <div class="mySlides fade">
+        <div class="numbertext">6 / 7</div>
+        <img src="img\menu\6.png" style="width:100%">
+        <!-- <div class="text">Caption Three</div> -->
+        </div>
+
+        <div class="mySlides fade">
+        <div class="numbertext">7 / 7</div>
+        <img src="img\menu\7.png" style="width:100%">
+        <!-- <div class="text">Caption Three</div> -->
+        </div>
+    
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-    <!-- <div class="container-3">
-        <h1 class="header__title-3">
-            <strong>Main Focus/Mission Statement</strong>
-        </h1>
-        <p class="text-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis placerat.</p>
-        <p class="text-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis placerat.</p>
-    </div> -->
-    <!--<div class="container-4">
-        <h1 class="header__title-4">
-            <strong>Our Projects</strong>
-        </h1>
-        <img src="./img/image 15.png" alt="img" class="img__3">
-        <img src="./img/image 16.png" alt="img" class="img__3">
-        <img src="./img/image 17.png" alt="img" class="img__3">
-        <img src="./img/image 18.png" alt="img" class="img__3">
-    </div> -->
-</main>
+    <br>
+    
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+    </div>
+    </main>
 
 
 <!-- Footer  -->
@@ -74,10 +111,10 @@
     <div class="container">
         <div class="footer__wrapper">
             <ul class="social">
-                <li class="social__item"><a href="#!"><img src="./img/facebook.png" alt="="Link"></a></li>
-                <li class="social__item"><a href="#!"><img src="./img/twitter.png" alt="="Link"></a></li>
-                <li class="social__item"><a href="#!"><img src="./img/facebook.png" alt="="Link"></a></li>
-                <li class="social__item"><a href="#!"><img src="./img/twitter.png" alt="="Link"></a></li>
+                <li class="social__item"><a href="#!"><img src="img\messenger\facebook.png" alt="="Link"></a></li>
+                <li class="social__item"><a href="#!"><img src="img\messenger\twitter.png" alt="="Link"></a></li>
+                <!-- <li class="social__item"><a href="#!"><img src="./img/facebook.png" alt="="Link"></a></li>
+                <li class="social__item"><a href="#!"><img src="./img/twitter.png" alt="="Link"></a></li> -->
             </ul> 
             <div class="copyright">
                 <p> 2023 </p>
